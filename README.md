@@ -22,9 +22,11 @@ This repository is licensed under the ***CC BY-NC-SA 4.0*** license. For your in
 The contributors to this repository and projects listed in the [Credits](#credits) section bear no liability for any consequences arising from its use. Users are solely responsible for their usage of this repository.
 
 ## Description
-With the help of the tool provided in this repo: [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS), the .cptk and .pth weight files are fine-tuned to clone the voice of characters in the TV anime series ***Bocchi the Rock!***.
+This repository uses [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) to fine-tune .cptk and .pth model weights for cloning the voices of characters from the anime series ***Bocchi the Rock!***.
 
-Currently, the released models perform well in generating speech in
+The goal is to provide a practical setup for training and running character voice models with a relatively simple workflow, including Docker-based deployment and a Python interface for generation.
+
+Currently, the released models perform especially well in generating speech in
 - ja
 
 and have acceptable performance in generating speech in
