@@ -34,6 +34,11 @@ and have acceptable performance in generating speech in
 - en
 
 ### Demos (Might not work on mobile devices. Trying viewing from computer or in browser)
+#### Hugging Face Space Demo (Inference speed may vary due to resources allocatred by system)
+**[Hugging Face Space Demo](https://huggingface.co/spaces/lpkpaco/Bocchi-The-Rock-GPT-SoVITS-Models)**
+
+
+#### Audio Demo
 #### - Hitori Gotoh: **あ。えっーと。い、1年生の後藤一人です。あ、あの、初めまして。** (gotoh-v1-3-1)
 <video src="https://github.com/user-attachments/assets/e447a0e4-9a3c-452f-84fb-303309d6e953"></video>
 
@@ -142,10 +147,11 @@ Installing through Docker is the most reliable and convenient way on Linux. Plea
 
 ## Future Work
 - [x] Upload a few demos (Pure laziness)
+- [x] Deploy HF Space Demo
 - [x] Finish and publish kita-v1
 - [ ] Finish and publish ryo-v1
 - [X] Add update log
-- [ ] Add a more detailed description of this project in readme.md
+- [x] Add a more detailed description of this project in readme.md
 - [x] Update the Installation section for the new Python scripts
 - [ ] Update the models by feeding them with more training data and adjusting parameters
 - [ ] Publish a list of recommended parameters tailored for each character when inferencing and generating speech
@@ -158,6 +164,9 @@ Installing through Docker is the most reliable and convenient way on Linux. Plea
 ***The datasets used for training will not be published (at least for now)***
 
 ## Changelog
+##### 2026-10-09
+- Added Hugging Face Space Demo deployed via Docker + Gradio
+
 ##### 2026-04-02
 - Implemented new code to reduce duplication
 
